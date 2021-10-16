@@ -5,7 +5,7 @@ from selenium import webdriver
 
 # Config
 # Change PATH if you wanna use the other webdriver.
-PATH = './Webdriver/chromedriver'
+PATH = './chromedriver'
 
 option = webdriver.ChromeOptions()
 option.add_argument(r"\home\jessie\.config\google-chrome")
